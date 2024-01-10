@@ -17,7 +17,7 @@ class RecipeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 22.0, vertical: 10.0),
+      margin: const EdgeInsets.symmetric(horizontal: 22.0, vertical: 10.0),
       width: MediaQuery.of(context).size.width,
       height: 180.0,
       decoration: BoxDecoration(
@@ -44,7 +44,7 @@ class RecipeCard extends StatelessWidget {
         children: [
           Align(
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 5.0),
+              padding: const EdgeInsets.symmetric(horizontal: 5.0),
               child: Text(
                 title,
                 style: const TextStyle(
